@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to bottom, #a8e063, #56ab2f);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.flex-table {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.flex-row:hover {
+  background-color: #d0d0d0;
+}

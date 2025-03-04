@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metodologías de Programación</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Metodologías de Programación Clasificadas en Ágiles y Tradicionales</h1>
+    
+    <div class="section agile">
+      <h2 class="title" onclick="toggleContent('agileContent')">Metodologías Ágiles</h2>
+      <div id="agileContent" class="content">
+        <ul>
+          <li>Scrum</li>
+          <li>Kanban</li>
+          <li>Extreme Programming (XP)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section traditional">
+      <h2 class="title" onclick="toggleContent('traditionalContent')">Metodologías Tradicionales</h2>
+      <div id="traditionalContent" class="content">
+        <ul>
+          <li>Cascada</li>
+          <li>Modelo V</li>
+          <li>Desarrollo Rápido de Aplicaciones (RAD)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section manifesto">
+      <h2 class="title">Temas del Manifiesto Ágil</h2>
+      <div class="flex-table">
+        <div class="flex-row">Individuos e interacciones sobre procesos y herramientas</div>
+        <div class="flex-row">Software funcionando sobre documentación extensiva</div>
+        <div class="flex-row">Colaboración con el cliente sobre negociación contractual</div>
+        <div class="flex-row">Respuesta ante el cambio sobre seguir un plan</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
